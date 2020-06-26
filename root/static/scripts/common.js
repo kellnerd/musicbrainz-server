@@ -27,6 +27,8 @@ window.ko = require("knockout");
 window._ = require("lodash");
 window.$ = window.jQuery = require("jquery");
 
+require("../../components/list/RecordingList");
+
 require("../lib/jquery.ui/ui/jquery-ui.custom");
 
 require("./common/components/Annotation");
